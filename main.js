@@ -139,7 +139,7 @@ const cargarProductos = async () => {
                 /* BUSCAR ID */
 
                 let actualId = parseInt(element.target.parentNode.parentNode.id)
-                console.log(actualId)
+                
 
                 /* ENCONTRAR PRODUCTO CON ID */
                 let actualProduct = dataJson.find(item => item.id == actualId)
